@@ -1,0 +1,22 @@
+.bg-danger {
+  background-color: coral !important;
+}
+
+.bg-strive {
+  background-color: limegreen;
+}
+/* 
+.custom-grid {
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+
+.custom-grid .row {
+  margin-left: -5rem;
+  margin-right: -5rem;
+}
+
+.custom-grid .row > * {
+  padding-left: 5rem;
+  padding-right: 5rem;
+} */

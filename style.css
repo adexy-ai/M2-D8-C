@@ -1,0 +1,45 @@
+:root {
+    --bg-dark: #0f171e;
+    --link: #79b8f3;
+    --link-hover: #90dffe;
+}
+
+body {
+    background-color: var(--bg-dark);
+    color: #f8f8f8;
+}
+
+.navbar {
+    padding: 1rem 3.5rem;
+}
+
+.carousel-indicators li {
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+}
+
+.prime-logo {
+    position: relative;
+    top: -3px;
+}
+
+.prime-badge {
+    position: absolute;
+    top: 0;
+    left: 0.25rem;
+}
+
+.prime-link {
+    color: var(--link);
+}
+
+.prime-link:hover {
+    color: var(--link-hover);
+    text-decoration: none;
+}
+
+.bg-navbar {
+    background-color: var(--bg-dark);
+    background-image: linear-gradient(180deg, #1b2530 0, rgba(27, 37, 48, 0.85));
+}
